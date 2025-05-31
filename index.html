@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kala Kart - Sell Your Art Globally</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Lato', sans-serif; background: #FFFFFF; }
+    /* Hero Section */
+    .hero { background: url('https://source.unsplash.com/random/1600x900/?artist') center/cover; padding: 100px 20px; text-align: center; color: white; }
+    .hero h1 { font-family: 'Poppins', sans-serif; font-size: 48px; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+    .hero p { font-size: 20px; margin: 10px 0; }
+    .btn { display: inline-block; padding: 12px 24px; border-radius: 5px; text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 16px; margin: 10px; }
+    .btn-primary { background: #F59E0B; color: white; }
+    .btn-primary:hover { transform: scale(1.1); transition: transform 0.2s; }
+    .btn-secondary { border: 2px solid white; color: white; }
+    .btn-secondary:hover { background: rgba(255,255,255,0.2); }
+    /* Section Styles */
+    .section { padding: 50px 20px; text-align: center; }
+    .section h2 { font-family: 'Poppins', sans-serif; font-size: 32px; color: #1E3A8A; }
+    /* Features */
+    .features { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .feature-card { background: #1E3A8A; color: white; padding: 20px; border-radius: 10px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+    .feature-card:nth-child(2) { background: #F59E0B; }
+    .feature-card:nth-child(3) { background: #EF4444; }
+    /* How It Works */
+    .steps { display: flex; flex-direction: column; gap: 20px; }
+    .step { display: flex; align-items: center; gap: 20px; max-width: 600px; margin: 0 auto; }
+    .step img { width: 100px; height: 100px; object-fit: cover; border-radius: 10px; }
+    .step:nth-child(even) { flex-direction: row-reverse; }
+    /* Showcase */
+    .showcase { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+    .showcase img { width: 200px; height: 150px; object-fit: cover; border-radius: 10px; }
+    .showcase img:hover { transform: scale(1.05); transition: transform 0.2s; }
+    /* Testimonials */
+    .testimonials { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .testimonial { background: #F9FAFB; padding: 20px; border-radius: 10px; width: 250px; }
+    .testimonial img { width: 50px; height: 50px; border-radius: 50%; }
+    /* CTA */
+    .cta { background: linear-gradient(to right, #1E3A8A, #F59E0B); padding: 50px 20px; color: white; }
+    /* Footer */
+    .footer { background: #1E3A8A; color: white; padding: 20px; text-align: center; }
+    .footer a { color: white; margin: 0 10px; text-decoration: none; }
+    /* Responsive */
+    @media (max-width: 600px) { .hero h1 { font-size: 32px; } .hero p { font-size: 16px; } .step { flex-direction: column; text-align: center; } }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Kala Kart: Sell Your Art to the World</h1>
+    <p>Join a global marketplace to share and sell your music videos, lyrics, and movies.</p>
+    <a href="#signup" class="btn btn-primary">Join as an Artist</a>
+    <a href="#explore" class="btn btn-secondary">Explore Creations</a>
+  </div>
+  <!-- Why Kala Kart -->
+  <div class="section">
+    <h2>Why Choose Kala Kart?</h2>
+    <div class="features">
+      <div class="feature-card">Global Reach: Sell your music videos, lyrics, and movies to fans worldwide.</div>
+      <div class="feature-card">Easy Uploads: Create your artist profile and upload content in minutes.</div>
+      <div class="feature-card">Secure Payments: Get paid safely with trusted payment systems like Stripe.</div>
+    </div>
+  </div>
+  <!-- How It Works -->
+  <div class="section">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <img src="https://source.unsplash.com/random/100x100/?signup" alt="Sign Up">
+        <div>
+          <h3>1. Sign Up</h3>
+          <p>Create your free artist account in seconds.</p>
+        </div>
+      </div>
+      <div class="step">
+        <img src="https://source.unsplash.com/random/100x100/?upload" alt="Upload">
+        <div>
+          <h3>2. Upload Your Art</h3>
+          <p>Add your music videos, lyrics, or movies to your profile.</p>
+        </div>
+      </div>
+      <div class="step">
+        <img src="https://source.unsplash.com/random/100x100/?sale" alt="Sell">
+        <div>
+          <h3>3. Sell Globally</h3>
+          <p>Reach fans worldwide and earn from every sale.</p>
+        </div>
+      </div>
+    </div>
+    <a href="#signup" class="btn btn-primary">Get Started Now</a>
+  </div>
+  <!-- Showcase -->
+  <div class="section">
+    <h2>Explore Kala Kart Creations</h2>
+    <div class="showcase">
+      <img src="https://source.unsplash.com/random/200x150/?music" alt="Music Video">
+      <img src="https://source.unsplash.com/random/200x150/?lyrics" alt="Lyrics">
+      <img src="https://source.unsplash.com/random/200x150/?movie" alt="Movie Poster">
+      <img src="https://source.unsplash.com/random/200x150/?musicvideo" alt="Music Video">
+    </div>
+    <a href="#explore" class="btn btn-secondary">Discover More Creations</a>
+  </div>
+  <!-- Testimonials -->
+  <div class="section">
+    <h2>What Creators Are Saying</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="https://source.unsplash.com/random/50x50/?musician" alt="Priya">
+        <p>“Kala Kart helped me sell my music videos to fans in 10 countries!” – Priya, Musician</p>
+      </div>
+      <div class="testimonial">
+        <img src="https://source.unsplash.com/random/50x50/?producer" alt="Alex">
+        <p>“I found unique lyrics for my next project on Kala Kart.” – Alex, Producer</p>
+      </div>
+    </div>
+  </div>
+  <!-- CTA -->
+  <div class="cta">
+    <h2>Ready to Share Your Art with the World?</h2>
+    <a href="#signup" class="btn btn-primary">Join as an Artist</a>
+    <a href="#explore
